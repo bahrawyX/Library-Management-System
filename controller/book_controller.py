@@ -1,6 +1,6 @@
 from flask import jsonify
 
-from controler.error_handler import InvalidUsage
+from controller.error_handler import InvalidUsage
 from models.book import Book
 
 

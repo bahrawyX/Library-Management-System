@@ -2,8 +2,8 @@
 from flask import Flask, json, jsonify, request
 
 
-from controler.book_controller import BookController
-from controler.error_handler import InvalidUsage
+from controller.book_controller import BookController
+from controller.error_handler import InvalidUsage
 from repository.book_repositiry import BookRepository
 
 
