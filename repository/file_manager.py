@@ -15,7 +15,7 @@ class DataBaseHandler:
                 # convert the data to a list of book objects
                 books = []
                 for item in self.data:
-                    book = Book(title=item["title"], author=item["author"], isbn=item["isbn"])
+                    book = Book(title=item["title"], author=item["author"], isbn=item["isbn"], borrowed= item["borrowed"])
                     books.append(book)
                 self.books = books
                 return self.books

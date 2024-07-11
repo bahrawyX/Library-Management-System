@@ -9,7 +9,8 @@ class Book:
         return {
             "title": self.title,
             "author": self.author,
-            "isbn": self.isbn
+            "isbn": self.isbn,
+            "borrowed": self.borrowed
         }
 
     def __str__(self):
