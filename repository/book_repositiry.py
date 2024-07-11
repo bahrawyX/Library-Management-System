@@ -9,11 +9,18 @@ class BookRepository:
     def __init__(self):
         self.file_manager  =DataBaseHandler()
         self.books = self.file_manager.load()
-        self.cnt = self.books[len(self.books)-1].isbn+1
+        maxID = 0
+        # get the max ID or ISN to know the id of any new book will be added in the future
+        for book in self.books:
+            if book.isbn > maxID:
+                maxID = book.isbn
+        
+        self.cnt = maxID +1
         
         
     
     def add_book(self, book):
+        # assign a unique id for the new book
         book.isbn = self.cnt
         self.cnt += 1 
         self.books.append(book)
@@ -33,6 +40,7 @@ class BookRepository:
         for i in range(len(self.books)):
             if self.books[i].isbn == book.isbn:
                 self.books[i] = book
+                # write through the data in the file
                 self.file_manager.save(books=self.books)
                 return True
         
@@ -42,6 +50,7 @@ class BookRepository:
         for i in range(len(self.books)):
             if self.books[i].isbn == book_id:
                 del self.books[i]
+                # write through the data in the file
                 self.file_manager.save(books=self.books)
                 return True
         return False

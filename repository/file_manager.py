@@ -12,14 +12,14 @@ class DataBaseHandler:
                 file_content = file.read()
                 
                 self.data =json.loads(file_content)
-
+                # convert the data to a list of book objects
                 books = []
                 for item in self.data:
                     book = Book(title=item["title"], author=item["author"], isbn=item["isbn"])
                     books.append(book)
                 self.books = books
                 return self.books
-            
+        
         except FileNotFoundError:
             print(f"File '{self.fileName}' not found.")
             self.books = []
