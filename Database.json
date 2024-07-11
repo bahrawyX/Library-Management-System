@@ -1,57 +1,9 @@
 [
     {
-        "author": "Gabriel Garcia Marquez",
-        "borrowed": false,
-        "isbn": 9781400034686,
-        "title": "One Hundred Years of Solitude"
-    },
-    {
-        "author": "Jane Austen",
-        "borrowed": true,
-        "isbn": 9780141439518,
-        "title": "Pride and Prejudice"
-    },
-    {
-        "author": "Fyodor Dostoevsky",
-        "borrowed": false,
-        "isbn": 9780679734500,
-        "title": "Crime and Punishment"
-    },
-    {
         "author": "Virginia Woolf",
-        "borrowed": false,
+        "borrowed": true,
         "isbn": 9780156907392,
         "title": "Mrs. Dalloway"
-    },
-    {
-        "author": "Ernest Hemingway",
-        "borrowed": true,
-        "isbn": 9780684801469,
-        "title": "The Old Man and the Sea"
-    },
-    {
-        "author": "Toni Morrison",
-        "borrowed": false,
-        "isbn": 9781400033429,
-        "title": "Beloved"
-    },
-    {
-        "author": "Leo Tolstoy",
-        "borrowed": false,
-        "isbn": 9780140449136,
-        "title": "War and Peace"
-    },
-    {
-        "author": "Harper Lee",
-        "borrowed": true,
-        "isbn": 9780061120084,
-        "title": "To Kill a Mockingbird"
-    },
-    {
-        "author": "J.R.R. Tolkien",
-        "borrowed": false,
-        "isbn": 9780618260584,
-        "title": "The Hobbit"
     },
     {
         "author": "George Orwell",
@@ -61,7 +13,7 @@
     },
     {
         "author": "Charles Dickens",
-        "borrowed": false,
+        "borrowed": true,
         "isbn": 9780141439600,
         "title": "Great Expectations"
     },
@@ -73,7 +25,7 @@
     },
     {
         "author": "Ernest Hemingway",
-        "borrowed": false,
+        "borrowed": true,
         "isbn": 9780684830490,
         "title": "For Whom the Bell Tolls"
     },
@@ -127,15 +79,9 @@
     },
     {
         "author": "Homer",
-        "borrowed": false,
+        "borrowed": true,
         "isbn": 9780140445923,
         "title": "The Odyssey"
-    },
-    {
-        "author": "Roald Dahl",
-        "borrowed": true,
-        "isbn": 9780142410363,
-        "title": "Charlie and the Chocolate Factory"
     },
     {
         "author": "Chinua Achebe",
@@ -154,5 +100,23 @@
         "borrowed": true,
         "isbn": 9780743273565,
         "title": "The Great Gatsby"
+    },
+    {
+        "author": "author",
+        "borrowed": 0,
+        "isbn": 9781451673320,
+        "title": "title"
+    },
+    {
+        "author": "test",
+        "borrowed": 0,
+        "isbn": 9781451673321,
+        "title": "Ello"
+    },
+    {
+        "author": "test2",
+        "borrowed": 0,
+        "isbn": 9781451673322,
+        "title": "test1"
     }
 ]
