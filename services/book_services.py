@@ -1,4 +1,5 @@
 from flask import Flask, json, jsonify, request
+from flask_cors import CORS
 
 # Importing necessary controllers and error handling
 from controller.book_controller import BookController
@@ -11,6 +12,7 @@ bookController = BookController(bookRepo=bookRepo)
 
 # Initializing Flask application
 app = Flask(__name__)
+CORS(app)
 
 # Route for the root endpoint
 @app.route("/")
