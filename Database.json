@@ -1,22 +1,32 @@
 [
-  {
-    "author": "Author B",
-    "isbn": 2002,
-    "title": "Book 2"
-  },
-  {
-    "author": "Author C",
-    "isbn": 2003,
-    "title": "Book 3"
-  },
-  {
-    "author": "author",
-    "isbn": 2006,
-    "title": "title"
-  },
-  {
-    "author": "author",
-    "isbn": 2007,
-    "title": "title"
-  }
+    {
+        "author": "Author B",
+        "borrowed": false,
+        "isbn": 2002,
+        "title": "Book 2"
+    },
+    {
+        "author": "Author C",
+        "borrowed": false,
+        "isbn": 2003,
+        "title": "Book 3"
+    },
+    {
+        "author": "author",
+        "borrowed": true,
+        "isbn": 2007,
+        "title": "title"
+    },
+    {
+        "author": "author",
+        "borrowed": false,
+        "isbn": 2008,
+        "title": "title"
+    },
+    {
+        "author": "author",
+        "borrowed": false,
+        "isbn": 2009,
+        "title": "title"
+    }
 ]
