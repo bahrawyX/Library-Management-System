@@ -19,6 +19,12 @@ To install and run this project, follow these steps:
     python main.py
     ```
 
+
+## Documentation
+
+- The documentation for this project can be found [here](https://documenter.getpostman.com/view/26527995/2sA3e4AomC)
+
+
 <!-- ## Usage
 
 To use this project, follow these steps:
